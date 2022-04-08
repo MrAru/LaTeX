@@ -1,0 +1,62 @@
+\documentclass{presentation}
+
+\title{A minimal example}
+\date{\today}
+\author{Aru}
+\institute{Astronomy Dept., Xiamen Univ.}
+\begin{document}
+\maketitle
+\section{First Section (Optional Page)}
+\begin{frame}{First Frame}
+	你好，世界！ \blfootnote{
+		A footnote without marker 脚注用来提示引文
+		} \\
+	Hello, world! \\
+	\begin{equation}
+		x = a_0 + \cfrac{1}{a_1 
+			+ \cfrac{1}{a_2 
+				+ \cfrac{1}{a_3 + \cfrac{1}{a_4} } } }
+	\end{equation}
+	\centering{\bf Fully supporting English, 中文及 \emoji{grinning-face}!}
+\end{frame}
+
+\begin{frame}{Second Frame}
+	\begin{columns}
+		\begin{column}{0.33\textwidth}
+			Left column \\
+			左侧
+		\end{column}
+		\begin{column}{0.33\textwidth}
+			\centering
+			Center column \\
+			中间
+		\end{column}
+		\begin{column}{0.33\textwidth}
+			\rightline{Right column} \\
+			\rightline{右侧}
+		\end{column}
+	\end{columns}
+	\centering{\bf Multicolumns!}
+\end{frame}
+
+\begin{frame}{Third Frame}
+	\begin{equation}
+		\mathbf{B}(P) = \frac{\mu_0}{4\pi}
+		\int\frac{\mathbf{I}\times\hat{r}'}{r'^2}dl = \frac{\mu_0}{4\pi}\,I\!
+		\int\frac{d\boldsymbol{l}\times\hat{r}'}{r'^2}
+	\end{equation}
+	\centering {\bf Mathematic chars, presented in a better seeing!}
+\end{frame}
+
+\begin{frame}[standout]
+	Thank you! \emoji{face-blowing-a-kiss}\\
+	\& \\
+	Any questions? \emoji{face-with-monocle}
+\end{frame}
+
+\appendix
+\begin{frame}{Appendix Frame}
+	Hello, world! \blfootnote{A footnote without marker} \\
+	你好，世界！
+\end{frame}
+\end{document}
